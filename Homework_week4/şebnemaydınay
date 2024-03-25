@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+
+Scanner input=new Scanner(System.in);
+System.out.println("ay gir:");
+String ay=input.nextLine();
+switch(ay)
+{ 
+    case "aralık":
+        System.out.println("kış");
+        break;
+    case "ocak":
+        System.out.println("kış");
+        break;
+    case "şubat":
+        System.out.println("kış");
+        break;
+    case "mart":
+        System.out.println("ilkbahar");
+        break;
+    case "nisan":
+        System.out.println("ilkbahar");
+        break;
+    case "mayıs":
+        System.out.println("ilkbahar");
+        break;
+    case "haziran":
+        System.out.println("yaz");
+        break;
+    case "temmuz":
+        System.out.println("yaz");
+        break;
+    case "ağustos":
+        System.out.println("yaz");
+    break;
+    case "eylül":
+       System.out.println("sonbahar");
+       break;
+       case "ekim":
+           System.out.println("sonbahar");
+          break;
+          case "kasım":
+             System.out.println("sonbahar"); 
+             break;
+} } }
