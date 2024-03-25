@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+Scanner input = new Scanner(System.in);
+System.out.println("sayi giriniz:");
+int sayi= input.nextInt();
+if(sayi<100){
+for(int i=0;i<sayi+1;i++)
+{
+    System.out.println(i);
+}}
+ else
+ {
+     System.out.println("yenisayi gir:");
+    int yenisayi=input.nextInt();
+     
+ }
+
+     
+ 
+}}
