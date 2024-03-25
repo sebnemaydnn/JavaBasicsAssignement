@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+
+Scanner input=new Scanner(System.in);
+System.out.println("yas gir:");
+int yas=input.nextInt();
+switch(yas)
+{ 
+    case 0:
+        System.out.println("yeni doğdu");
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        System.out.println("bebek");
+        break;
+    case 7:
+        System.out.println("ilkokul");
+        break;
+    case 11:
+        System.out.println("ortaokul");
+        break;
+    case 15:
+        System.out.println("lise");
+        break;
+    default:
+        System.out.println("yaşlı");
+    break;
+} } }
